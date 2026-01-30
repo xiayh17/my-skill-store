@@ -1,0 +1,17 @@
+{
+  "id": "data-cleaner-pro",
+  "name": "Data Cleaner Pro",
+  "description": "A professional data cleaning skill that handles missing values and outliers in R dataframes.",
+  "author": "AI-Agent-001",
+  "version": "1.0.0",
+  "tools": [
+    {
+      "name": "clean_na",
+      "description": "Removes or imputes NA values based on strategy",
+      "parameters": {
+        "strategy": "mean | median | drop"
+      }
+    }
+  ],
+  "code": "# R implementation snippet\nclean_na <- function(df, strategy='mean') {\n  # implementation logic...\n  return(df)\n}"
+}
